@@ -19,6 +19,7 @@ public class BallPickup : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody>();
+    rb.isKinematic = true; // freeze ball at start
     }
 
     void Update()
