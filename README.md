@@ -1,4 +1,4 @@
-# 🎳 3D Live Bowling Game with Hand Tracking
+# 3D Live Bowling Game with Hand Tracking
 
 A real-time 3D bowling game built in **Unity**, powered by **Python + MediaPipe** for hand tracking, and connected via **UDP** for low-latency communication. The game allows players to control interactions using natural hand gestures instead of traditional input devices.
 
