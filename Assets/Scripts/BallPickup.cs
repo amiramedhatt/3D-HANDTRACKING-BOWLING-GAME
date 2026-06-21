@@ -17,7 +17,7 @@ public class BallPickup : MonoBehaviour
     private float lockedZ;
     private bool canPickup = false;
     private float throwTimer= 0f;
-    private float throwTimeLimit=7f;
+    private float throwTimeLimit=10f;
     void Start()
     {
         rb = GetComponent<Rigidbody>();
