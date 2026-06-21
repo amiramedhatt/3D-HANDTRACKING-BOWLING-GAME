@@ -15,19 +15,25 @@ public class BallPickup : MonoBehaviour
     private Vector3 lastPalmPosition;
     private Vector3 throwVelocity;
     private float lockedZ;
+    private bool canPickup = false;
 
     void Start()
     {
         rb = GetComponent<Rigidbody>();
         rb.isKinematic = true; // freeze ball at start
         rb.constraints = RigidbodyConstraints.FreezeAll;
+        Invoke("EnablePickup", 3f); // wait 3 seconds before allowing pickup
     }
-
+    void EnablePickup()
+    {
+        canPickup=true;
+    }
+    
     void Update()
 {
     float distanceToBall = Vector3.Distance(palmPoint.transform.position, transform.position);
 
-    if (gripDetection.isGripping && distanceToBall < pickupDistance && !isHeld)
+    if (canPickup && gripDetection.isGripping && distanceToBall < pickupDistance && !isHeld)
     {
         isHeld = true;
         rb.constraints = RigidbodyConstraints.None;
