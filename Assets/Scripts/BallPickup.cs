@@ -16,7 +16,8 @@ public class BallPickup : MonoBehaviour
     private Vector3 throwVelocity;
     private float lockedZ;
     private bool canPickup = false;
-
+    private float throwTimer= 0f;
+    private float throwTimeLimit=7f;
     void Start()
     {
         rb = GetComponent<Rigidbody>();
@@ -49,6 +50,7 @@ public class BallPickup : MonoBehaviour
 
     if (wasGripping && !gripDetection.isGripping && isHeld)
     {
+        throwTimer = 0f; // reset timer
         isHeld = false;
         rb.isKinematic = false;
         lockedZ = transform.position.z;
@@ -62,6 +64,14 @@ public class BallPickup : MonoBehaviour
     {
         Vector3 pos = rb.position;
         rb.MovePosition(new Vector3(pos.x, pos.y, lockedZ));
+        throwTimer += Time.deltaTime;
+    if (throwTimer >= throwTimeLimit)
+    {
+        throwTimer = 0f;
+        ballThrown = false;
+        cameraController.StopFollowing();
+        gameManager.BallStopped();
+    }
     }
 
     wasGripping = gripDetection.isGripping;
