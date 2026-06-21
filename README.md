@@ -8,9 +8,21 @@ A real-time 3D bowling game built in **Unity**, powered by **Python + MediaPipe*
 https://drive.google.com/drive/folders/1zi7_qJDGjR55wqXR1r35WsD_TuLcWH5Y?usp=drive_link
 
 
+## How to Run
 
----
+### Requirements
+- Python 3.8+
+- A webcam (built-in or external)
 
+### Install Dependencies
+```
+pip install mediapipe cvzone opencv-python
+```
+
+### Steps
+1. Run `python main.py` in your terminal
+2. Open the `3D HANDTRACKING BOWLING GAME` folder
+3. Run `HCIFINALPROJECT.exe`
 ## Features
 
 - Real-time hand tracking using MediaPipe
