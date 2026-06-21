@@ -310,7 +310,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 10, y: -40}
+  m_AnchoredPosition: {x: 10, y: -70}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &28078132
@@ -360,8 +360,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 60
+  m_fontSizeBase: 60
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1695,15 +1695,15 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 60
+  m_fontSizeBase: 60
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
-  m_HorizontalAlignment: 1
-  m_VerticalAlignment: 256
+  m_fontStyle: 1
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_characterHorizontalScale: 1
@@ -2042,28 +2042,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!64 &624786634
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9113925079291816872}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4293290106351981585, guid: 255f38b45b3fc0946ab2036c82ef9d06, type: 3}
 --- !u!1 &628152068
 GameObject:
   m_ObjectHideFlags: 0
@@ -2318,28 +2296,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!64 &631032519
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 82729126378832202}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -299731040347056169, guid: 255f38b45b3fc0946ab2036c82ef9d06, type: 3}
 --- !u!1 &636267695
 GameObject:
   m_ObjectHideFlags: 0
@@ -2706,28 +2662,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!64 &652535211
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3782252173178362921}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -6044583506445521944, guid: 255f38b45b3fc0946ab2036c82ef9d06, type: 3}
 --- !u!1 &675921211
 GameObject:
   m_ObjectHideFlags: 0
@@ -3078,8 +3012,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 5, y: -70}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: 5, y: -85}
+  m_SizeDelta: {x: 170, y: 40}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &769566211
 MonoBehaviour:
@@ -3196,7 +3130,7 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1
+  MinDistance: 0.8641459
   MaxDistance: 500
   Pan2D: 0
   rolloffMode: 0
@@ -3272,28 +3206,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!64 &781659073
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4397150988861899111}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 608500835651062788, guid: 255f38b45b3fc0946ab2036c82ef9d06, type: 3}
 --- !u!1 &784168111
 GameObject:
   m_ObjectHideFlags: 0
@@ -3712,28 +3624,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!64 &803160590
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8179656824549632879}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -8779331719515964518, guid: 255f38b45b3fc0946ab2036c82ef9d06, type: 3}
 --- !u!1 &832575517
 GameObject:
   m_ObjectHideFlags: 0
@@ -5231,13 +5121,13 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 20
-  m_fontSizeBase: 20
+  m_fontSize: 50
+  m_fontSizeBase: 50
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 1
   m_VerticalAlignment: 256
   m_textAlignment: 65535
@@ -5924,28 +5814,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!64 &1280896922
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1793229498317823499}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 544305293682537134, guid: 255f38b45b3fc0946ab2036c82ef9d06, type: 3}
 --- !u!54 &1280896924
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -7164,8 +7032,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 5, y: -20}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: 5, y: -30}
+  m_SizeDelta: {x: 170, y: 40}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1702674674
 MonoBehaviour:
@@ -7358,28 +7226,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!64 &1744402943
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3691616332809349669}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4967086674073242327, guid: 255f38b45b3fc0946ab2036c82ef9d06, type: 3}
 --- !u!54 &1744402945
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -8369,28 +8215,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!64 &1817606091
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7844550131704718247}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -7354628946238831200, guid: 255f38b45b3fc0946ab2036c82ef9d06, type: 3}
 --- !u!54 &1817606093
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -8640,28 +8464,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!64 &1881638891
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8054115107545067127}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 6335111662366809109, guid: 255f38b45b3fc0946ab2036c82ef9d06, type: 3}
 --- !u!54 &1881638893
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -9116,28 +8918,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!64 &2047522692
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4548835908016097684}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 5042889703277770337, guid: 255f38b45b3fc0946ab2036c82ef9d06, type: 3}
 --- !u!54 &2047522694
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -9523,10 +9303,10 @@ GameObject:
   - component: {fileID: 3309938864311976299}
   - component: {fileID: 4725148274433425756}
   - component: {fileID: 4956499481905626808}
-  - component: {fileID: 631032519}
   - component: {fileID: 631032518}
   - component: {fileID: 911093460}
   - component: {fileID: 911093459}
+  - component: {fileID: 4956499481905626809}
   m_Layer: 0
   m_Name: Bowling_pin011
   m_TagString: pin
@@ -11200,10 +10980,10 @@ GameObject:
   - component: {fileID: 1133219039082327402}
   - component: {fileID: 3699003393910279985}
   - component: {fileID: 8625763338084898367}
-  - component: {fileID: 1280896922}
   - component: {fileID: 1280896921}
   - component: {fileID: 1280896925}
   - component: {fileID: 1280896924}
+  - component: {fileID: 8625763338084898368}
   m_Layer: 0
   m_Name: Bowling_pin010
   m_TagString: pin
@@ -13252,10 +13032,10 @@ GameObject:
   - component: {fileID: 189814350363865711}
   - component: {fileID: 1761080968923871776}
   - component: {fileID: 3826201909881401794}
-  - component: {fileID: 1744402943}
   - component: {fileID: 1744402942}
   - component: {fileID: 1744402946}
   - component: {fileID: 1744402945}
+  - component: {fileID: 3826201909881401795}
   m_Layer: 0
   m_Name: Bowling_pin006
   m_TagString: pin
@@ -13466,10 +13246,10 @@ GameObject:
   - component: {fileID: 8070624696673168960}
   - component: {fileID: 2579353770210418817}
   - component: {fileID: 4469126364224716988}
-  - component: {fileID: 652535211}
   - component: {fileID: 652535210}
   - component: {fileID: 557155998}
   - component: {fileID: 557155997}
+  - component: {fileID: 8070624696673168961}
   m_Layer: 0
   m_Name: Bowling_pin012
   m_TagString: pin
@@ -13649,6 +13429,28 @@ MeshRenderer:
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &3826201909881401795
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3691616332809349669}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4967086674073242327, guid: 255f38b45b3fc0946ab2036c82ef9d06, type: 3}
 --- !u!33 &3840883515538979521
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -14164,10 +13966,10 @@ GameObject:
   - component: {fileID: 4332953181927607951}
   - component: {fileID: 2870717815379116318}
   - component: {fileID: 2256013813527716361}
-  - component: {fileID: 781659073}
   - component: {fileID: 781659072}
   - component: {fileID: 1363363032}
   - component: {fileID: 1363363031}
+  - component: {fileID: 4397150988861899112}
   m_Layer: 0
   m_Name: Bowling_pin009
   m_TagString: pin
@@ -14175,6 +13977,28 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!64 &4397150988861899112
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4397150988861899111}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 608500835651062788, guid: 255f38b45b3fc0946ab2036c82ef9d06, type: 3}
 --- !u!1 &4400082584633380943
 GameObject:
   m_ObjectHideFlags: 0
@@ -14438,10 +14262,10 @@ GameObject:
   - component: {fileID: 5594486934859247854}
   - component: {fileID: 571760153758520367}
   - component: {fileID: 82709424082383676}
-  - component: {fileID: 2047522692}
   - component: {fileID: 2047522691}
   - component: {fileID: 2047522695}
   - component: {fileID: 2047522694}
+  - component: {fileID: 5594486934859247855}
   m_Layer: 0
   m_Name: Bowling_pin001
   m_TagString: pin
@@ -15009,6 +14833,28 @@ MeshRenderer:
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &4956499481905626809
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 82729126378832202}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -299731040347056169, guid: 255f38b45b3fc0946ab2036c82ef9d06, type: 3}
 --- !u!23 &4985330079050055264
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -15730,6 +15576,28 @@ Transform:
   m_Children: []
   m_Father: {fileID: 543450652663742500}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!64 &5594486934859247855
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4548835908016097684}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 5042889703277770337, guid: 255f38b45b3fc0946ab2036c82ef9d06, type: 3}
 --- !u!1 &5624379421007341632
 GameObject:
   m_ObjectHideFlags: 0
@@ -18463,10 +18331,10 @@ GameObject:
   - component: {fileID: 4762877518770602490}
   - component: {fileID: 5937350964796342315}
   - component: {fileID: 8441250693418870147}
-  - component: {fileID: 1817606091}
   - component: {fileID: 1817606090}
   - component: {fileID: 1817606094}
   - component: {fileID: 1817606093}
+  - component: {fileID: 8441250693418870148}
   m_Layer: 0
   m_Name: Bowling_pin007
   m_TagString: pin
@@ -18850,10 +18718,10 @@ GameObject:
   - component: {fileID: 5264117035700014533}
   - component: {fileID: 1096441473580580852}
   - component: {fileID: 3330552386869791288}
-  - component: {fileID: 1881638891}
   - component: {fileID: 1881638890}
   - component: {fileID: 1881638894}
   - component: {fileID: 1881638893}
+  - component: {fileID: 8054115107545067128}
   m_Layer: 0
   m_Name: Bowling_pin004
   m_TagString: pin
@@ -18861,6 +18729,28 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!64 &8054115107545067128
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8054115107545067127}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 6335111662366809109, guid: 255f38b45b3fc0946ab2036c82ef9d06, type: 3}
 --- !u!4 &8070624696673168960
 Transform:
   m_ObjectHideFlags: 0
@@ -18876,6 +18766,28 @@ Transform:
   m_Children: []
   m_Father: {fileID: 543450652663742500}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!64 &8070624696673168961
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3782252173178362921}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -6044583506445521944, guid: 255f38b45b3fc0946ab2036c82ef9d06, type: 3}
 --- !u!1 &8085957688627350267
 GameObject:
   m_ObjectHideFlags: 0
@@ -18994,10 +18906,10 @@ GameObject:
   - component: {fileID: 7596236527117748226}
   - component: {fileID: 2454398814820561543}
   - component: {fileID: 7987803244255288372}
-  - component: {fileID: 803160590}
   - component: {fileID: 803160589}
   - component: {fileID: 874016175}
   - component: {fileID: 874016174}
+  - component: {fileID: 8179656824549632880}
   m_Layer: 0
   m_Name: Bowling_pin008
   m_TagString: pin
@@ -19005,6 +18917,28 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!64 &8179656824549632880
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8179656824549632879}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -8779331719515964518, guid: 255f38b45b3fc0946ab2036c82ef9d06, type: 3}
 --- !u!4 &8189095282764737960
 Transform:
   m_ObjectHideFlags: 0
@@ -19423,6 +19357,28 @@ MeshRenderer:
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &8441250693418870148
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7844550131704718247}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -7354628946238831200, guid: 255f38b45b3fc0946ab2036c82ef9d06, type: 3}
 --- !u!1 &8458931961902550335
 GameObject:
   m_ObjectHideFlags: 0
@@ -19685,6 +19641,28 @@ MeshRenderer:
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &8625763338084898368
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1793229498317823499}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 544305293682537134, guid: 255f38b45b3fc0946ab2036c82ef9d06, type: 3}
 --- !u!33 &8627350944967474874
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -20297,10 +20275,10 @@ GameObject:
   - component: {fileID: 5418102892947522286}
   - component: {fileID: 1200082462621673685}
   - component: {fileID: 5465065150682442423}
-  - component: {fileID: 624786634}
   - component: {fileID: 624786633}
   - component: {fileID: 1044867036}
   - component: {fileID: 1044867035}
+  - component: {fileID: 9113925079291816873}
   m_Layer: 0
   m_Name: Bowling_pin002
   m_TagString: pin
@@ -20308,6 +20286,28 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!64 &9113925079291816873
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9113925079291816872}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4293290106351981585, guid: 255f38b45b3fc0946ab2036c82ef9d06, type: 3}
 --- !u!1 &9136864323479418131
 GameObject:
   m_ObjectHideFlags: 0

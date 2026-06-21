@@ -3,6 +3,7 @@ import cv2
 import socket
 
 cap = cv2.VideoCapture(1)
+cap.set(cv2.CAP_PROP_BUFFERSIZE,1)
 cap.set(3, 1280)
 cap.set(4, 720)
 success, img = cap.read()
@@ -15,6 +16,7 @@ serverAddressPort = ("127.0.0.1", 5052)
 while True:
     # Get image frame
     success, img = cap.read()
+    img = cv2.flip(img, 1)
     # Find the hand and its landmarks
     hands, img = detector.findHands(img)  # with draw
     # hands = detector.findHands(img, draw=False)  # without draw
