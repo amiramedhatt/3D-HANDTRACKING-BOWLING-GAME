@@ -3,7 +3,9 @@
 A real-time 3D bowling game built in **Unity**, powered by **Python + MediaPipe** for hand tracking, and connected via **UDP** for low-latency communication. The game allows players to control interactions using natural hand gestures instead of traditional input devices.
 
 ---
-
+## Game Assets
+Bowling Alley & Pins Asset:
+https://skfb.ly/oPoAC
 ## Video Demo & Download Game
 https://drive.google.com/drive/folders/1zi7_qJDGjR55wqXR1r35WsD_TuLcWH5Y?usp=drive_link
 
