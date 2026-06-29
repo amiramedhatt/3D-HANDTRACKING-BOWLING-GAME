@@ -4,7 +4,7 @@ A real-time 3D bowling game built in **Unity**, powered by **Python + MediaPipe*
 
 ---
 ## Game Assets
-Bowling Alley & Pins Asset:
+Bowling Club Asset:
 https://skfb.ly/oPoAC
 ## Video Demo & Download Game
 https://drive.google.com/drive/folders/1zi7_qJDGjR55wqXR1r35WsD_TuLcWH5Y?usp=drive_link
